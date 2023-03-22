@@ -16,7 +16,7 @@ docker run -it -p 5000:5000 libretranslate
 ```
 ## Usar la API
 
-1 - Descargarse el archivo Translate.py
+1 - Descargarse el archivo Translate.py que está en este repositorio
 
 2 - Guardarlo en la carpeta donde esté el código de python con el que estás trabajando
 
