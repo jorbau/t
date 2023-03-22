@@ -16,4 +16,22 @@ docker run -it -p 5000:5000 libretranslate
 ```
 ## Usar la API
 
+1 - Descargarse el archivo Translate.py
+
+2 - Guardarlo en la carpeta donde esté el código de python con el que estás trabajando
+
+EJEMPLO DE USO
+```
+python
+from Translate import Translate
+
+Translate = Translate()
+
+print(Translate.translate(text="Esto es una gran mierda, no me gusta", only_text=True))
+```
+
+Por defecto ya detecta el idioma de origen y traduce al inglés, si pones only_text=True devuelve unicamente el texto traducido, si pones only_text=False devuelve el texto traducido, el idioma detectado y la confianza.
+
+
+
 
